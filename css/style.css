@@ -1,6 +1,16 @@
+body{
+    overflow-y: scroll;
+}
 .head-carousel h1{
     font-family: 'Poppins', sans-serif;
     font-weight: bold;
+    color: #2F281E;
+}
+.head-carousel p{
+    color: #2F281E;
+}
+.navbar-nav {
+    font-weight: 600;
 }
 .btn-primary {
     background-color: #FF9900;
@@ -11,4 +21,30 @@
 }
 .btn-img{
     cursor: pointer;
+}
+.btn-signIn{
+    font-weight: 600;
+    color: #173A56;
+    font-size: 16px;
+    padding: 8px 25px;
+    border: 1px solid #BCD0E5;
+    background-color: white;
+    border-radius: 7px;
+}
+.btn-signUp{
+    margin-left: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 25px;
+    border: none;
+    background-color: #FF9900;
+    border-radius: 7px;
+}
+.btn-signUp:hover{
+    background-color: #ffa217;
+    color: white;
+}
+.nav-item{
+    margin-left: 10px;
 }
