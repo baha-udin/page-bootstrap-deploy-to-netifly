@@ -48,3 +48,94 @@ body{
 .nav-item{
     margin-left: 10px;
 }
+.nav-link:hover {
+    background-color: #f3f3f3;
+    border-radius: 2px;
+}
+.title-fitur {
+    position: relative;
+    width: 100%;
+}
+.title-fitur h1{
+    text-align: center;
+    font-family: 'Poppins';
+    font-weight: 800;
+    font-size: 36px;
+    margin-left: 140px;
+}
+.background-fitur{
+    background-image: url('images/asset/Bg.svg') !important;
+}
+.list-fitur {
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    position: relative;
+    border-radius: 12px;
+}
+.list-fitur:hover{
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .5s;
+    background-color: rgb(6, 64, 150);
+    color: white;
+}
+
+.btn-signUp2{
+    margin-left: 14px;
+    font-weight: 600;
+    color: #ffffff;
+    font-size: 16px;
+    padding: 8px 25px;
+    border: none;
+    background-color: #FF9900;
+    border-radius: 4px;
+    text-align: center;
+    transition: color .15s ease-in-out;
+    justify-content: center;
+}
+.btn-signUp2:hover {
+    color: #ffe8c5;
+    background-color: #FF9900;
+}
+.contain-text span {
+    margin-top: 0;
+}
+
+.contain-text h1{
+    font-size: 36px;
+    font-weight: bold;
+}
+.contain-text h5{
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.contain-text p{
+    font-size: 16px;
+}
+.contain-jobs {
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    border: none;
+    border-radius: 12px;
+    padding: 15px;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.contain-jobs:hover {
+    background-color: #00ccb1;
+    color: white;
+}
+.text-list{
+    display: flex;
+    align-items: center;
+}
+.section-teams{
+    width: 80%;
+}
+.img-teams{
+    margin-left: 160px;
+    width: 100%;
+    justify-content: center;
+    padding: 40px;
+}
