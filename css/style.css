@@ -133,9 +133,52 @@ body{
 .section-teams{
     width: 80%;
 }
-.img-teams{
-    margin-left: 160px;
-    width: 100%;
+.blog-article1, .blog-article2, .blog-article3 {
+    border: none;
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+    margin-right: 10px;
+    position: relative;
+    border-radius: 12px;
+    cursor: pointer;
+    padding: 10px;
     justify-content: center;
-    padding: 40px;
+
+}
+
+.blog-article1:hover, .blog-article2:hover, .blog-article3:hover  {
+    cursor: pointer;
+    -webkit-transition: all .3s;
+    transition: all .5s;
+    background-color: rgb(253, 253, 255);
+}
+.blog-article1 h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.blog-article2 h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.blog-article3 h4{
+    font-weight: bold;
+    font-size: 24px;
+}
+.footer{
+    background-color: rgb(252, 252, 252);
+}
+.insert-email{
+    border-radius: 4px;
+    padding: 5px;
+    border: 2px solid #FF9900;
+    width: 230px;
+}
+.insert-email:hover{
+    background-color: #fffefb;
+
+}
+.footer-2 p, .footer-3 p, .footer-4 p{
+    cursor: pointer;
+    font-weight: 600;
+
 }
