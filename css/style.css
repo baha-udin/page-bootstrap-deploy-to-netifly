@@ -165,7 +165,8 @@ body{
     font-size: 24px;
 }
 .footer{
-    background-color: rgb(252, 252, 252);
+    background-color: rgb(2, 3, 63);
+    color: white;
 }
 .insert-email{
     border-radius: 4px;
